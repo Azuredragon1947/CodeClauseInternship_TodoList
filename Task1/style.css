@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d67bff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 33%;
+  text-align: center;
+}
+
+h1 {
+  color: #feffac;
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.input-container {
+  display: flex;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  background-color: #feffac;
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffb6d9;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffb6d9;
+  color: brown;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  background-color: #feffac;
+  color: brown;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0.5rem 1rem #feffac;
+  background-color: #d67bff;
+  color: #feffac;
+  font-weight: bold;
+}
+
+.box-done {
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+
+.box-done:active {
+  background-color: #d67bff;
+}
